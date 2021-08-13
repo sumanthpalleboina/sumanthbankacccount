@@ -1,0 +1,19 @@
+.buttonlistItem {
+  list-style-type: none;
+  margin: none;
+  padding: none;
+}
+.button {
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid white;
+  background-color: #382f5a;
+  width: 120px;
+  height: 35px;
+  margin: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: white;
+  font-size: 17px;
+}

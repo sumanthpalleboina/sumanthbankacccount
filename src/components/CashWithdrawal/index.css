@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.withdrawal-page-section {
+  background-color: #150b3e;
+  width: 350px;
+  height: 65vh;
+  background-size: cover;
+  border-radius: 14px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .withdrawal-page-section {
+    width: 400px;
+    height: 65vh;
+  }
+}
+.account-profile {
+  display: flex;
+  align-items: center;
+}
+.profile-iconMake {
+  border-radius: 20px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.profile-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #d4d2db;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.your-balance {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #585076;
+  margin-top: 20px;
+}
+.warning {
+  display: none;
+}
+.warning-new {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400px;
+  margin-left: 5px;
+  display: block;
+}
+.amount {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+.amount-tag {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #585076;
+}
+.Withdraw {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.choose-sum {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #585076;
+}
+.denomination-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  flex-shrink: 0;
+}
